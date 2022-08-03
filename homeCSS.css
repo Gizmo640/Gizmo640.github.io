@@ -1,0 +1,45 @@
+.body {
+  margin: 0px;
+
+  display: flex;
+
+}
+
+/*-----Start of the Header-----*/
+.header{
+  margin: none
+  background-color: lightblue;
+}
+
+.heading {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.nav{
+  display: flex;
+  flex-flow: row wrap;
+  /*justify-content: space-evenly;*/
+
+}
+
+.navList{
+  list-style-type: none;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+}
+
+.navItem{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.navLink{
+  margin: 0px;
+}
+/*-----End of the Header-----*/
