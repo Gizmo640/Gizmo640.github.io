@@ -1,0 +1,23 @@
+The possible causes are:
+
+a CSS rule with a higher Specificity is winning over the rule you expect to be applied
+a CSS rule with the same Specificity is loaded after your
+(the order of declaration counts - the latter wins - so check your CSS file imports)
+a CSS rule targeting your object uses the !important keyword.
+Inspect how the rules are applied through the browser's Developer Tools (open with F12).
+
+HINT: In the CSS panel, the rules are listed by importance in descending order.
+
+your CSS has syntax errors
+your HTML is not well-formed
+Use some validator.
+
+your browser is caching the CSS file
+Force the refresh of the browser-cached resource by pressing CTRLF5.
+
+HINT: This Q&A explores the subject.
+
+your server is caching the CSS file
+Force the refresh of the server-cached resource by entering the URL of the static resources in the Address Bar and pressing CTRLF5 on that page (that is the CSS file).
+
+HINT: To open the CSS file's URL fastly, use Open link in a new Tab from the browser's Developer Tools, or click on the CSS link in the HTML opened with View Source.

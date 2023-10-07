@@ -1,45 +1,60 @@
-.body {
-  margin: 0px;
-
-  display: flex;
-
+body {
+	margin: 0px;
+	background-color: rgb(119, 136, 153);
 }
 
 /*-----Start of the Header-----*/
-.header{
-  margin: none
-  background-color: lightblue;
+header{
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(47, 79, 79);
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
+
+/*-----Header Link Behavor-----*/
+.headerLink:link, .headerLink:visited, .headerLink:hover, .headerLink:active{
+	color: rgb(255, 248, 220);
+	text-decoration: none;
+}
+.navLink:link, .navLink:visited{
+	color: rgb(255, 248, 220);
+	text-decoration: none;
+}
+.navLink:hover, .navLink:active{
+	color: rgb(255, 248, 220);
+	background-color: rgb(119, 136, 153);
+	text-decoration: none;
+}
+/*-----End of the Header Link Behavor-----*/
 
 .heading {
-  display: flex;
-  flex-flow: row wrap;
-
+	display: flex;
 }
 
-.nav{
-  display: flex;
-  flex-flow: row wrap;
-  /*justify-content: space-evenly;*/
-
+nav{
+	padding: 0px 0px 0px 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .navList{
-  list-style-type: none;
+	list-style-type: none;
 
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-
+	display: flex;
+	flex-flow: row wrap;
+  /*justify-content: flex-end;
+  align-items: center;*/
 }
 
 .navItem{
-  display: flex;
-  justify-content: flex-end;
+	padding: 0px;
 
-}
-
-.navLink{
-  margin: 0px;
+	display: flex;
+	justify-content: flex-end;
 }
 /*-----End of the Header-----*/
