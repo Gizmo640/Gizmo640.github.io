@@ -1,9 +1,0 @@
-Background Color: Black: #000000
-
-Text Colors: #FFE6E6
-
-Primary: #008B8B
-
-Secondary/ Button Colors: #121254
-
-Accent: #00FFFF

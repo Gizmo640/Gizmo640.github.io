@@ -1,0 +1,21 @@
+Background Color: Black: #000000
+
+Text Colors: #FFE6E6
+
+Primary: #008B8B
+
+Secondary/ Button Colors: #121254
+
+Accent: #00FFFF
+
+https://www.realtimecolors.com/dashboard?colors=FFE6E6-000000-008B8B-121254-00FFFF&fonts=Poppins-Poppins
+
+https://www.w3schools.com/tags/ref_byfunc.asp
+https://www.w3schools.com/tags/ref_standardattributes.asp
+
+https://html.spec.whatwg.org/multipage/microdata.html#introduction-7
+
+https://www.w3schools.com/js/default.asp
+
+
+file:///home/null/Projects/Project_MyWebSite/outline.html

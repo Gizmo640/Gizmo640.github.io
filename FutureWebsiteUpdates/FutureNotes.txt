@@ -1,0 +1,2 @@
+Make the portfolio have a drop down for all the projects in it.
+Same for about me

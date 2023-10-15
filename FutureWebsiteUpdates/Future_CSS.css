@@ -1,0 +1,63 @@
+*{
+	font-family: Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	color: #FFE6E6;
+}
+
+/*-----Start of the Header-----*/
+header{
+	position: sticky;
+	padding: 20px 20px 20px 20px;
+	background-color: #008B8B;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+.heading{
+	font-size: 3em;
+}
+.navBar{
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: row;
+}
+.navLink{
+	text-decoration: none;
+	padding: 15px;
+}
+
+/*-----Portfolio Behavor-----*/
+.portfolio{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.portfolio_content
+{
+	background-color: #121254;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+}
+.portfolio:hover .portfolio_content{
+	display: flex;
+}
+.portfolio:hover .navLink{
+	background-color: #121254;
+}
+/*-----Nav Link Behavor-----*/
+.navLink:hover, .navLink:active{
+	background-color: #121254;
+}
+/*-----End of Nav Link Behavor-----*/
+/*-----End of the Header-----*/
+/*-----Start of the Body-----*/
+body {
+	background-color: #000000;
+}
+/*-----End of the Body-----*/
