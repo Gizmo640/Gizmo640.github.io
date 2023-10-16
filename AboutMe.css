@@ -1,0 +1,21 @@
+main{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start
+}
+.AboutMe-Heading{
+	font-size: 1.6em;
+}
+main section{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start
+}
+
+
+.PictureOfMe{
+	height: 200px;
+	width: 100px;
+}

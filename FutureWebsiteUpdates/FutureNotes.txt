@@ -1,2 +1,6 @@
 Make the portfolio have a drop down for all the projects in it.
 Same for about me
+
+Remove Logo if screen is to small
+
+Make pretty and reactive
