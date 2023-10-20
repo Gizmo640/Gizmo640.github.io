@@ -12,6 +12,9 @@ body {
 	flex-direction: column;
 	justify-content: flex-start
 }
+body, html {
+	height: 100%;
+}
 /*-----Start of the Header-----*/
 header{
 	padding: 10px;
@@ -27,7 +30,7 @@ header{
 	top: 0px;
 	z-index: 1;
 }
-.heading{
+.SiteHeader{
 	font-size: 1em;
 	margin: 10px;
 
@@ -37,7 +40,7 @@ header{
 	column-gap: .5em;
 	justify-content: flex-start;
 }
-.heading h1{
+.SiteHeader h1{
 	align-self: center;
 }
 /*-----Start of Nav Bar-----*/
@@ -49,26 +52,48 @@ nav{
 	flex-direction: row;
 	column-gap: .5em;
 	justify-content: center;
+	flex-grow: 0;
 }
-.navLink{
+.NavLink{
 	padding: 10px;
 	align-self: center;
 	text-decoration: none;
 }
-.navLink:hover, .navLink:active{
+.NavLink:hover, .NavLink:active{
 	background-color: #121254;
 }
 /*-----End of Nav Bar-----*/
 /*-----End of the Header-----*/
+/*-----Start of the Main-----*/
+main{
+	flex-grow: 1;
+}
+article{
+	padding: 20px 40px;
+}
+/*-----End of the Main-----*/
 /*-----Start of the Footer-----*/
 footer{
-	padding: 10px;
-	font-size: .75em;
+	padding: 20px;
+	font-size: .85em;
+
+	background-color: #008B8B;
 
 	display: flex;
+	
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-around;
 	align-content: center;
+}
+.Copyright{
+	padding-left: 20%;
+	order: 2;
+	align-self: center;
+}
+.Contact{
+	padding-right: 20%;
+	order: 1;
+	align-self: center;
 }
 /*-----End of the Footer-----*/
